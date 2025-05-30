@@ -1,0 +1,36 @@
+{
+  "name": "plataforma-de-turismo",
+  "version": "1.0.0",
+  "description": "Trabalho",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipechaves10/plataforma-de-turismo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipechaves10/plataforma-de-turismo/issues"
+  },
+  "homepage": "https://github.com/felipechaves10/plataforma-de-turismo#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.8.2",
+    "i": "^0.3.7",
+    "npm": "^11.4.1",
+    "prisma": "^6.8.2"
+  }
+}
